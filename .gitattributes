@@ -1,1 +1,4 @@
 * text=auto !eol
+NsisSetup/git/NsisSetupDev_git.sync_all.bat -text
+NsisSetup/git/NsisSetupLib_git.sync_all.bat -text
+NsisSetup/git/NsisSetupSamples_git.sync_all.bat -text
