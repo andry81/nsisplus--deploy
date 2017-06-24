@@ -1,4 +1,7 @@
 * text=auto !eol
-NsisSetup/git/NsisSetupDev_git.sync_all.bat -text
-NsisSetup/git/NsisSetupLib_git.sync_all.bat -text
-NsisSetup/git/NsisSetupSamples_git.sync_all.bat -text
+_nsisplus/NsisSetupDev_gh.sync_all.bat -text
+_nsisplus/NsisSetupDev_sf.update_all.bat -text
+_nsisplus/NsisSetupLib_gh.sync_all.bat -text
+_nsisplus/NsisSetupLib_sf.update_all.bat -text
+_nsisplus/NsisSetupSamples_gh.sync_all.bat -text
+_nsisplus/NsisSetupSamples_sf.update_all.bat -text
