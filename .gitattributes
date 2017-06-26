@@ -1,7 +1,20 @@
 * text=auto !eol
+_nsisplus/NsisSetupDev_gh.init.bat -text
+_nsisplus/NsisSetupDev_gh.pull_all.bat -text
+_nsisplus/NsisSetupDev_gh.reset_all.bat -text
 _nsisplus/NsisSetupDev_gh.sync_all.bat -text
+_nsisplus/NsisSetupDev_sf.checkout_all.bat -text
 _nsisplus/NsisSetupDev_sf.update_all.bat -text
+_nsisplus/NsisSetupLib_gh.init.bat -text
+_nsisplus/NsisSetupLib_gh.pull_all.bat -text
+_nsisplus/NsisSetupLib_gh.reset_all.bat -text
 _nsisplus/NsisSetupLib_gh.sync_all.bat -text
+_nsisplus/NsisSetupLib_sf.checkout_all.bat -text
 _nsisplus/NsisSetupLib_sf.update_all.bat -text
+_nsisplus/NsisSetupSamples_gh.init.bat -text
+_nsisplus/NsisSetupSamples_gh.pull_all.bat -text
+_nsisplus/NsisSetupSamples_gh.reset_all.bat -text
 _nsisplus/NsisSetupSamples_gh.sync_all.bat -text
+_nsisplus/NsisSetupSamples_sf.checkout_all.bat -text
 _nsisplus/NsisSetupSamples_sf.update_all.bat -text
+_nsisplus/configure.bat -text
