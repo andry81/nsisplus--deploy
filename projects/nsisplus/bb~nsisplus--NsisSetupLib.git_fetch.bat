@@ -25,8 +25,10 @@ if "%NEST_LVL%" == "" set NEST_LVL=0
 
 set /A NEST_LVL+=1
 
-if not exist "%~dp0%WCROOT%\" mkdir "%~dp0%WCROOT%"
-if not exist "%~dp0%WCROOT%\.svn" ( call :CMD svn co "%%NSIS_SETUP_DEV.SVN.REPOROOT%%/trunk" "%%~dp0%%WCROOT%%" || goto EXIT )
+pushd "%~dp0%WCROOT%" && (
+  call :CMD git svn fetch %%* || ( popd & goto EXIT )
+  popd
+)
 
 :EXIT
 set /A NEST_LVL-=1
