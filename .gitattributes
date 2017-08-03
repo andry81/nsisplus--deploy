@@ -1,4 +1,5 @@
 * text=auto !eol
+projects/nsisplus/README_EN.txt -text
 projects/nsisplus/bb~NsisSetupDev.git_fetch.bat -text
 projects/nsisplus/bb~NsisSetupDev.git_init.bat -text
 projects/nsisplus/bb~NsisSetupDev.git_pull_all.bat -text
