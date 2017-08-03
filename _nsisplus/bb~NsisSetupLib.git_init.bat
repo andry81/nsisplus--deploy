@@ -19,7 +19,7 @@ set "STDERR_FILE_TMP=%TEMP_FILE_OUTTER_DIR%\stderr.txt"
 
 rem create temporary files to store local context output
 if exist "%TEMP_FILE_OUTTER_DIR%\" (
-  echo.%?~nx0%: error: temporary generated directory TEMP_FILE_OUTTER_DIR is already exist: "%TEMP_FILE_OUTTER_DIR%"
+  echo.%?~n0%: error: temporary generated directory TEMP_FILE_OUTTER_DIR is already exist: "%TEMP_FILE_OUTTER_DIR%"
   exit /b -255
 ) >&2
 
@@ -39,12 +39,12 @@ if not exist "%~dp0configure.user.bat" ( call "%~dp0configure.bat" || goto :EOF 
 call "%~dp0configure.user.bat" || goto :EOF
 
 rem extract name of sync directory from name of the script
-set "?~nx0=%~nx0"
+set "?~n0=%~n0"
 
-set "WCROOT_SUFFIX=%?~nx0:*.=%"
+set "WCROOT_SUFFIX=%?~n0:*.=%"
 
-set "WCROOT=%?~nx0%."
-if "%WCROOT_SUFFIX%" == "%?~nx0%" goto IGNORE_WCROOT_SUFFIX
+set "WCROOT=%?~n0%."
+if "%WCROOT_SUFFIX%" == "%?~n0%" goto IGNORE_WCROOT_SUFFIX
 call set "WCROOT=%%WCROOT:.%WCROOT_SUFFIX%.=%%"
 
 :IGNORE_WCROOT_SUFFIX
@@ -59,14 +59,14 @@ if not exist "%~dp0%WCROOT%\.git" ( call :CMD git init "%%~dp0%%WCROOT%%" %%* ||
 
 pushd "%~dp0%WCROOT%" && (
   rem reinit git svn
-  call :GIT_SVN_INIT "%%NSIS_SETUP_SAMPLES.SVN.REPOROOT%%" --stdlayout || ( popd & goto EXIT )
+  call :GIT_SVN_INIT "%%NSIS_SETUP_LIB.SVN.REPOROOT%%" --stdlayout || ( popd & goto EXIT )
 
-  call :CMD git config user.name "%%GIT.USER%%" || ( popd & goto EXIT )
-  call :CMD git config user.email "%%GIT.EMAIL%%" || ( popd & goto EXIT )
+  call :CMD git config user.name "%%GIT2.USER%%" || ( popd & goto EXIT )
+  call :CMD git config user.email "%%GIT2.EMAIL%%" || ( popd & goto EXIT )
 
   (
-    git remote get-url origin > nul 2> nul && call :CMD git remote set-url origin "%%NSIS_SETUP_SAMPLES.GIT.ORIGIN%%"
-  ) || call :CMD git remote add origin "%%NSIS_SETUP_SAMPLES.GIT.ORIGIN%%" || ( popd & goto EXIT )
+    git remote get-url origin > nul 2> nul && call :CMD git remote set-url origin "%%NSIS_SETUP_LIB.GIT2.ORIGIN%%"
+  ) || call :CMD git remote add origin "%%NSIS_SETUP_LIB.GIT2.ORIGIN%%" || ( popd & goto EXIT )
 
   popd
 )

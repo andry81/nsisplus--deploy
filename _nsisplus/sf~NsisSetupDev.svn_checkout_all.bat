@@ -7,12 +7,12 @@ if not exist "%~dp0configure.user.bat" ( call "%~dp0configure.bat" || goto :EOF 
 call "%~dp0configure.user.bat" || goto :EOF
 
 rem extract name of sync directory from name of the script
-set "?~nx0=%~nx0"
+set "?~n0=%~n0"
 
-set "WCROOT_SUFFIX=%?~nx0:*.=%"
+set "WCROOT_SUFFIX=%?~n0:*.=%"
 
-set "WCROOT=%?~nx0%."
-if "%WCROOT_SUFFIX%" == "%?~nx0%" goto IGNORE_WCROOT_SUFFIX
+set "WCROOT=%?~n0%."
+if "%WCROOT_SUFFIX%" == "%?~n0%" goto IGNORE_WCROOT_SUFFIX
 call set "WCROOT=%%WCROOT:.%WCROOT_SUFFIX%.=%%"
 
 :IGNORE_WCROOT_SUFFIX
@@ -23,7 +23,7 @@ if "%NEST_LVL%" == "" set NEST_LVL=0
 set /A NEST_LVL+=1
 
 if not exist "%~dp0%WCROOT%" mkdir "%~dp0%WCROOT%"
-if not exist "%~dp0%WCROOT%\.svn" ( call :CMD svn co "%%NSIS_SETUP_SAMPLES.SVN.REPOROOT%%/trunk" "%%~dp0%%WCROOT%%" || goto EXIT )
+if not exist "%~dp0%WCROOT%\.svn" ( call :CMD svn co "%%NSIS_SETUP_DEV.SVN.REPOROOT%%/trunk" "%%~dp0%%WCROOT%%" || goto EXIT )
 
 :EXIT
 set /A NEST_LVL-=1
