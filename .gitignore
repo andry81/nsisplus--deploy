@@ -1,1 +1,6 @@
+projects/nsisplus/NsisSetupDev/configure.user.bat
+projects/nsisplus/NsisSetupLib/configure.user.bat
+projects/nsisplus/NsisSetupSamples/configure.user.bat
 projects/nsisplus/configure.user.bat
+projects/nsisplus/configureex.user.bat
+projects/nsisplus/deploy/configure.user.bat
