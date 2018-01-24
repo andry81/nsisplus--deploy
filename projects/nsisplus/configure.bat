@@ -14,26 +14,20 @@ set /A NEST_LVL+=1
   echo.set PROJECT_NAME=nsisplus
   echo.set "WCROOT_OFFSET=../../../../_%%PROJECT_NAME%%"
   echo.
-  echo.rem primary mirror: github.com
-  echo.set "GIT.REPO_OWNER=andry81"
+  echo.set "NSISPLUS_DEPLOY.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/nsisplus/deploy"
+  echo.set "NSIS_SETUP_DEV.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/nsisplus/NsisSetupDev"
+  echo.set "NSIS_SETUP_LIB.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/nsisplus/NsisSetupLib"
+  echo.set "NSIS_SETUP_SAMPLES.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/nsisplus/NsisSetupSamples"
   echo.
-  echo.rem secondary mirror: bitbucket.org
-  echo.set "GIT2.REPO_OWNER=andry81"
+  echo.set "NSISPLUS_DEPLOY.GIT.ORIGIN=https://%%GIT.USER%%@%%GIT.HUB_ROOT%%/%%GIT.REPO_OWNER%%/nsisplus--deploy.git"
+  echo.set "NSIS_SETUP_DEV.GIT.ORIGIN=https://%%GIT.USER%%@%%GIT.HUB_ROOT%%/%%GIT.REPO_OWNER%%/nsisplus--NsisSetupDev.git"
+  echo.set "NSIS_SETUP_LIB.GIT.ORIGIN=https://%%GIT.USER%%@%%GIT.HUB_ROOT%%/%%GIT.REPO_OWNER%%/nsisplus--NsisSetupLib.git"
+  echo.set "NSIS_SETUP_SAMPLES.GIT.ORIGIN=https://%%GIT.USER%%@%%GIT.HUB_ROOT%%/%%GIT.REPO_OWNER%%/nsisplus--NsisSetupSamples.git"
   echo.
-  echo.set "NSISPLUS_DEPLOY.SVN.REPOROOT=https://svn.code.sf.net/p/nsisplus/deploy"
-  echo.set "NSIS_SETUP_DEV.SVN.REPOROOT=https://svn.code.sf.net/p/nsisplus/NsisSetupDev"
-  echo.set "NSIS_SETUP_LIB.SVN.REPOROOT=https://svn.code.sf.net/p/nsisplus/NsisSetupLib"
-  echo.set "NSIS_SETUP_SAMPLES.SVN.REPOROOT=https://svn.code.sf.net/p/nsisplus/NsisSetupSamples"
-  echo.
-  echo.set "NSISPLUS_DEPLOY.GIT.ORIGIN=https://%%GIT.USER%%@github.com/%%GIT.REPO_OWNER%%/nsisplus--deploy.git"
-  echo.set "NSIS_SETUP_DEV.GIT.ORIGIN=https://%%GIT.USER%%@github.com/%%GIT.REPO_OWNER%%/nsisplus--NsisSetupDev.git"
-  echo.set "NSIS_SETUP_LIB.GIT.ORIGIN=https://%%GIT.USER%%@github.com/%%GIT.REPO_OWNER%%/nsisplus--NsisSetupLib.git"
-  echo.set "NSIS_SETUP_SAMPLES.GIT.ORIGIN=https://%%GIT.USER%%@github.com/%%GIT.REPO_OWNER%%/nsisplus--NsisSetupSamples.git"
-  echo.
-  echo.set "NSISPLUS_DEPLOY.GIT2.ORIGIN=https://%%GIT2.USER%%@bitbucket.org/%%GIT2.REPO_OWNER%%/nsisplus-deploy.git"
-  echo.set "NSIS_SETUP_DEV.GIT2.ORIGIN=https://%%GIT2.USER%%@bitbucket.org/%%GIT2.REPO_OWNER%%/nsisplus-nsissetupdev.git"
-  echo.set "NSIS_SETUP_LIB.GIT2.ORIGIN=https://%%GIT2.USER%%@bitbucket.org/%%GIT2.REPO_OWNER%%/nsisplus-nsissetuplib.git"
-  echo.set "NSIS_SETUP_SAMPLES.GIT2.ORIGIN=https://%%GIT2.USER%%@bitbucket.org/%%GIT2.REPO_OWNER%%/nsisplus-nsissetupsamples.git"
+  echo.set "NSISPLUS_DEPLOY.GIT2.ORIGIN=https://%%GIT2.USER%%@%%GIT2.HUB_ROOT%%/%%GIT2.REPO_OWNER%%/nsisplus-deploy.git"
+  echo.set "NSIS_SETUP_DEV.GIT2.ORIGIN=https://%%GIT2.USER%%@%%GIT2.HUB_ROOT%%/%%GIT2.REPO_OWNER%%/nsisplus-nsissetupdev.git"
+  echo.set "NSIS_SETUP_LIB.GIT2.ORIGIN=https://%%GIT2.USER%%@%%GIT2.HUB_ROOT%%/%%GIT2.REPO_OWNER%%/nsisplus-nsissetuplib.git"
+  echo.set "NSIS_SETUP_SAMPLES.GIT2.ORIGIN=https://%%GIT2.USER%%@%%GIT2.HUB_ROOT%%/%%GIT2.REPO_OWNER%%/nsisplus-nsissetupsamples.git"
   echo.
 ) > "%~dp0configure.user.bat"
 

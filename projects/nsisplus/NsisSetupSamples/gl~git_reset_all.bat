@@ -18,13 +18,15 @@ rem extract name of sync directory from name of the script
 set "?~nx0=%~nx0"
 set "?~n0=%~n0"
 
-set "WCROOT=%SVN.WCROOT_DIR%"
+set "WCROOT=%GIT3.WCROOT_DIR%"
 if not defined WCROOT ( call :EXIT_B -254 & goto EXIT )
 
 if not "%WCROOT_OFFSET%" == "" set "WCROOT=%WCROOT_OFFSET%/%WCROOT%"
 
-if not exist "%~dp0%WCROOT%\" mkdir "%~dp0%WCROOT%"
-if not exist "%~dp0%WCROOT%\.svn" ( call :CMD svn co "%%NSIS_SETUP_DEV.SVN.REPOROOT%%/trunk" "%%~dp0%%WCROOT%%" || goto EXIT )
+pushd "%~dp0%WCROOT%" && (
+  call :CMD git reset %%* || ( popd & goto EXIT )
+  popd
+)
 
 goto EXIT
 
