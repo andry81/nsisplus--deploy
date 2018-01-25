@@ -11,7 +11,7 @@ set /A NEST_LVL+=1
 (
   echo.@echo off
   echo.
-  echo.set "SVN.WCROOT_DIR=sf~deploy"
+  echo.set "SVN.WCROOT_DIR=sf~nsisplus--deploy"
   echo.set "GIT.WCROOT_DIR=gh~nsisplus--deploy"
   echo.set "GIT2.WCROOT_DIR=bb~nsisplus--deploy"
   echo.
