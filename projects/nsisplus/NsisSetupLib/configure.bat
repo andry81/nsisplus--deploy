@@ -11,10 +11,10 @@ set /A NEST_LVL+=1
 (
   echo.@echo off
   echo.
-  echo.set "SVN.WCROOT_DIR=sf~nsisplus--NsisSetupLib"
-  echo.set "GIT.WCROOT_DIR=gh~nsisplus--NsisSetupLib"
-  echo.set "GIT2.WCROOT_DIR=bb~nsisplus--NsisSetupLib"
-  echo.set "GIT3.WCROOT_DIR=gl~nsisplus--NsisSetupLib"
+  echo.set "SVN.WCROOT_DIR=sf~svn~nsisplus--NsisSetupLib"
+  echo.set "GIT.WCROOT_DIR=gh~git~nsisplus--NsisSetupLib"
+  echo.set "GIT2.WCROOT_DIR=bb~git~nsisplus--NsisSetupLib"
+  echo.set "GIT3.WCROOT_DIR=gl~git~nsisplus--NsisSetupLib"
   echo.
 ) > "%~dp0configure.user.bat"
 
