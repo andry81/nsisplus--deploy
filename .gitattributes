@@ -1,4 +1,5 @@
 * text=auto !eol
+projects/nsisplus/NsisSetupDev/__init__.bat -text
 projects/nsisplus/NsisSetupDev/bb~git_init.bat -text
 projects/nsisplus/NsisSetupDev/bb~git_pull_all.bat -text
 projects/nsisplus/NsisSetupDev/bb~git_reset_all.bat -text
@@ -17,6 +18,7 @@ projects/nsisplus/NsisSetupDev/gl~git~svn_fetch.bat -text
 projects/nsisplus/NsisSetupDev/gl~git~svn_sync_all.bat -text
 projects/nsisplus/NsisSetupDev/sf~svn~checkout_all.bat -text
 projects/nsisplus/NsisSetupDev/sf~svn~update_all.bat -text
+projects/nsisplus/NsisSetupLib/__init__.bat -text
 projects/nsisplus/NsisSetupLib/bb~git_init.bat -text
 projects/nsisplus/NsisSetupLib/bb~git_pull_all.bat -text
 projects/nsisplus/NsisSetupLib/bb~git_reset_all.bat -text
@@ -35,6 +37,7 @@ projects/nsisplus/NsisSetupLib/gl~git~svn_fetch.bat -text
 projects/nsisplus/NsisSetupLib/gl~git~svn_sync_all.bat -text
 projects/nsisplus/NsisSetupLib/sf~svn~checkout_all.bat -text
 projects/nsisplus/NsisSetupLib/sf~svn~update_all.bat -text
+projects/nsisplus/NsisSetupSamples/__init__.bat -text
 projects/nsisplus/NsisSetupSamples/bb~git_init.bat -text
 projects/nsisplus/NsisSetupSamples/bb~git_pull_all.bat -text
 projects/nsisplus/NsisSetupSamples/bb~git_reset_all.bat -text
@@ -54,7 +57,9 @@ projects/nsisplus/NsisSetupSamples/gl~git~svn_sync_all.bat -text
 projects/nsisplus/NsisSetupSamples/sf~svn~checkout_all.bat -text
 projects/nsisplus/NsisSetupSamples/sf~svn~update_all.bat -text
 projects/nsisplus/README_EN.txt -text
+projects/nsisplus/__init__.bat -text
 projects/nsisplus/configure.bat -text
+projects/nsisplus/deploy/__init__.bat -text
 projects/nsisplus/deploy/bb~git_init.bat -text
 projects/nsisplus/deploy/bb~git_pull_all.bat -text
 projects/nsisplus/deploy/bb~git_reset_all.bat -text
