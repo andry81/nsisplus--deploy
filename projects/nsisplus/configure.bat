@@ -12,7 +12,7 @@ set /A NEST_LVL+=1
   echo.@echo off
   echo.
   echo.set PROJECT_NAME=nsisplus
-  echo.set "WCROOT_OFFSET=../../../../_%%PROJECT_NAME%%"
+  echo.set "WCROOT_OFFSET=%%CONFIGURE_ROOT%%/../../_%%PROJECT_NAME%%"
   echo.
   echo.set "NSISPLUS_DEPLOY.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/nsisplus/deploy"
   echo.set "NSIS_SETUP_DEV.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/nsisplus/NsisSetupDev"

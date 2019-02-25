@@ -1,0 +1,10 @@
+"SVN.WCROOT_DIR=sf~svn~nsisplus--NsisSetupLib"
+"GIT.WCROOT_DIR=gh~git~nsisplus--NsisSetupLib"
+"GIT2.WCROOT_DIR=bb~git~nsisplus--NsisSetupLib"
+"GIT3.WCROOT_DIR=gl~git~nsisplus--NsisSetupLib"
+
+GIT.GIT_SVN_INIT_CMDLINE="%NSIS_SETUP_LIB.SVN.REPOROOT%" --stdlayout
+GIT2.GIT_SVN_INIT_CMDLINE="%NSIS_SETUP_LIB.SVN.REPOROOT%" --stdlayout
+GIT3.GIT_SVN_INIT_CMDLINE="%NSIS_SETUP_LIB.SVN.REPOROOT%" --stdlayout
+
+"SVN.CHECKOUT_URL=%NSIS_SETUP_LIB.SVN.REPOROOT%/trunk"
