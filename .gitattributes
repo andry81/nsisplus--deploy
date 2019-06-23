@@ -64,6 +64,7 @@ projects/nsisplus/NsisSetupSamples/sf~svn~checkout_all.bat -text
 projects/nsisplus/NsisSetupSamples/sf~svn~update_all.bat -text
 projects/nsisplus/README_EN.txt -text
 projects/nsisplus/__init__.bat -text
+projects/nsisplus/config.vars.in -text
 projects/nsisplus/configure.bat -text
 projects/nsisplus/deploy/__init__.bat -text
 projects/nsisplus/deploy/bb~git~init.bat -text

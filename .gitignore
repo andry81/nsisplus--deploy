@@ -1,10 +1,9 @@
+projects/nsisplus/*.vars
 projects/nsisplus/NsisSetupDev/*.lst
 projects/nsisplus/NsisSetupDev/*.vars
 projects/nsisplus/NsisSetupLib/*.lst
 projects/nsisplus/NsisSetupLib/*.vars
 projects/nsisplus/NsisSetupSamples/*.lst
 projects/nsisplus/NsisSetupSamples/*.vars
-projects/nsisplus/configure.user.bat
-projects/nsisplus/configure_private.user.bat
 projects/nsisplus/deploy/*.lst
 projects/nsisplus/deploy/*.vars
