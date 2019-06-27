@@ -1,9 +1,14 @@
 projects/nsisplus/*.vars
+projects/nsisplus/.log
 projects/nsisplus/NsisSetupDev/*.lst
 projects/nsisplus/NsisSetupDev/*.vars
+projects/nsisplus/NsisSetupDev/.log
 projects/nsisplus/NsisSetupLib/*.lst
 projects/nsisplus/NsisSetupLib/*.vars
+projects/nsisplus/NsisSetupLib/.log
 projects/nsisplus/NsisSetupSamples/*.lst
 projects/nsisplus/NsisSetupSamples/*.vars
+projects/nsisplus/NsisSetupSamples/.log
 projects/nsisplus/deploy/*.lst
 projects/nsisplus/deploy/*.vars
+projects/nsisplus/deploy/.log
