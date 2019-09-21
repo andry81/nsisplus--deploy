@@ -1,4 +1,6 @@
+projects/nsisplus/*.lst
 projects/nsisplus/*.vars
+projects/nsisplus/*.yaml
 projects/nsisplus/.log
 projects/nsisplus/NsisSetupDev/*.lst
 projects/nsisplus/NsisSetupDev/*.vars

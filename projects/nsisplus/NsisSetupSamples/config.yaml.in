@@ -1,0 +1,12 @@
+SVN.REPOROOT:               ${NSIS_SETUP_SAMPLES.SVN.REPOROOT}
+
+SVN.WCROOT_DIR:             sf~svn~nsisplus--NsisSetupSamples
+GIT.WCROOT_DIR:             gh~git~nsisplus--NsisSetupSamples
+GIT2.WCROOT_DIR:            bb~git~nsisplus--NsisSetupSamples
+GIT3.WCROOT_DIR:            gl~git~nsisplus--NsisSetupSamples
+
+GIT.GIT_SVN_INIT_CMDLINE:   [--stdlayout]
+GIT2.GIT_SVN_INIT_CMDLINE:  [--stdlayout]
+GIT3.GIT_SVN_INIT_CMDLINE:  [--stdlayout]
+
+SVN.CHECKOUT_URL:           ${NSIS_SETUP_SAMPLES.SVN.REPOROOT}/trunk
