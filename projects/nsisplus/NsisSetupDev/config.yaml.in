@@ -1,5 +1,3 @@
-SVN.REPOROOT:               ${NSIS_SETUP_DEV.SVN.REPOROOT}
-
 SVN.WCROOT_DIR:             sf~svn~nsisplus--NsisSetupDev
 GIT.WCROOT_DIR:             gh~git~nsisplus--NsisSetupDev
 GIT2.WCROOT_DIR:            bb~git~nsisplus--NsisSetupDev
