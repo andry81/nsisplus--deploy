@@ -3,8 +3,4 @@ GIT.WCROOT_DIR:             gh~git~nsisplus--NsisSetupDev
 GIT2.WCROOT_DIR:            bb~git~nsisplus--NsisSetupDev
 GIT3.WCROOT_DIR:            gl~git~nsisplus--NsisSetupDev
 
-GIT.GIT_SVN_INIT_CMDLINE:   [--stdlayout]
-GIT2.GIT_SVN_INIT_CMDLINE:  [--stdlayout]
-GIT3.GIT_SVN_INIT_CMDLINE:  [--stdlayout]
-
 SVN.CHECKOUT_URL:           ${NSIS_SETUP_DEV.SVN.REPOROOT}/trunk
