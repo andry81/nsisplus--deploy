@@ -1,5 +1,5 @@
 PROJECT_NAME:                     nsisplus
-WCROOT_OFFSET:                    ${env:CONFIGURE_ROOT:path}/../../_${PROJECT_NAME}
+WCROOT_OFFSET:                    ${CONFIGURE_ROOT}/../../_${PROJECT_NAME}
 
 NSISPLUS_DEPLOY.SVN.REPOROOT:     svn+ssh://${SVN.HUB_ROOT}/nsisplus/deploy
 NSIS_SETUP_DEV.SVN.REPOROOT:      svn+ssh://${SVN.HUB_ROOT}/nsisplus/NsisSetupDev
