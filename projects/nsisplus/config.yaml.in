@@ -6,12 +6,12 @@ NSIS_SETUP_DEV.SVN.REPOROOT:      svn+ssh://${SVN.HUB_ROOT}/nsisplus/NsisSetupDe
 NSIS_SETUP_LIB.SVN.REPOROOT:      svn+ssh://${SVN.HUB_ROOT}/nsisplus/NsisSetupLib
 NSIS_SETUP_SAMPLES.SVN.REPOROOT:  svn+ssh://${SVN.HUB_ROOT}/nsisplus/NsisSetupSamples
 
-NSISPLUS_DEPLOY.GIT.ORIGIN:       https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--deploy.git
-NSIS_SETUP_DEV.GIT.ORIGIN:        https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupDev.git
-NSIS_SETUP_LIB.GIT.ORIGIN:        https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupLib.git
-NSIS_SETUP_SAMPLES.GIT.ORIGIN:    https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupSamples.git
+NSISPLUS_DEPLOY.GIT.ORIGIN:       https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--deploy.git
+NSIS_SETUP_DEV.GIT.ORIGIN:        https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupDev.git
+NSIS_SETUP_LIB.GIT.ORIGIN:        https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupLib.git
+NSIS_SETUP_SAMPLES.GIT.ORIGIN:    https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupSamples.git
 
-NSISPLUS_DEPLOY.GIT2.ORIGIN:      https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-deploy.git
-NSIS_SETUP_DEV.GIT2.ORIGIN:       https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-nsissetupdev.git
-NSIS_SETUP_LIB.GIT2.ORIGIN:       https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-nsissetuplib.git
-NSIS_SETUP_SAMPLES.GIT2.ORIGIN:   https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-nsissetupsamples.git
+NSISPLUS_DEPLOY.GIT2.ORIGIN:      https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-deploy.git
+NSIS_SETUP_DEV.GIT2.ORIGIN:       https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-nsissetupdev.git
+NSIS_SETUP_LIB.GIT2.ORIGIN:       https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-nsissetuplib.git
+NSIS_SETUP_SAMPLES.GIT2.ORIGIN:   https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-nsissetupsamples.git
