@@ -1,16 +1,19 @@
 PROJECT_NAME:                     nsisplus
 WCROOT_OFFSET:                    ${CONFIGURE_ROOT}/../../_${PROJECT_NAME}
 
+NSISPLUS_PROJECTS.SVN.REPOROOT:   svn+ssh://${SVN.HUB_ROOT}/nsisplus/projects
 NSISPLUS_DEPLOY.SVN.REPOROOT:     svn+ssh://${SVN.HUB_ROOT}/nsisplus/deploy
 NSIS_SETUP_DEV.SVN.REPOROOT:      svn+ssh://${SVN.HUB_ROOT}/nsisplus/NsisSetupDev
 NSIS_SETUP_LIB.SVN.REPOROOT:      svn+ssh://${SVN.HUB_ROOT}/nsisplus/NsisSetupLib
 NSIS_SETUP_SAMPLES.SVN.REPOROOT:  svn+ssh://${SVN.HUB_ROOT}/nsisplus/NsisSetupSamples
 
+NSISPLUS_PROJECTS.GIT.ORIGIN:     https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--projects.git
 NSISPLUS_DEPLOY.GIT.ORIGIN:       https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--deploy.git
 NSIS_SETUP_DEV.GIT.ORIGIN:        https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupDev.git
 NSIS_SETUP_LIB.GIT.ORIGIN:        https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupLib.git
 NSIS_SETUP_SAMPLES.GIT.ORIGIN:    https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/nsisplus--NsisSetupSamples.git
 
+NSISPLUS_PROJECTS.GIT2.ORIGIN:    https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-projects.git
 NSISPLUS_DEPLOY.GIT2.ORIGIN:      https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-deploy.git
 NSIS_SETUP_DEV.GIT2.ORIGIN:       https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-nsissetupdev.git
 NSIS_SETUP_LIB.GIT2.ORIGIN:       https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/nsisplus-nsissetuplib.git

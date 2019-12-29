@@ -1,0 +1,5 @@
+SVN.WCROOT_DIR:             sf~svn~nsisplus--projects
+GIT.WCROOT_DIR:             gh~git~nsisplus--projects
+GIT2.WCROOT_DIR:            bb~git~nsisplus--projects
+
+SVN.CHECKOUT_URL:           ${NSISPLUS_PROJECTS.SVN.REPOROOT}/trunk
