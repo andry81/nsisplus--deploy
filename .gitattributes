@@ -14,7 +14,6 @@ projects/nsisplus/NsisSetupSamples/config.vars.in -text
 projects/nsisplus/NsisSetupSamples/config.yaml.in -text
 projects/nsisplus/NsisSetupSamples/configure.bat -text
 projects/nsisplus/NsisSetupSamples/git_repos.lst.in -text
-projects/nsisplus/README_EN.txt -text
 projects/nsisplus/__init__.bat -text
 projects/nsisplus/_projects/__init__.bat -text
 projects/nsisplus/_projects/config.vars.in -text
