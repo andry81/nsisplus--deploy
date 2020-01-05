@@ -1,18 +1,12 @@
 * text=auto !eol
-projects/nsisplus/NsisSetupDev/config.vars.in -text
 projects/nsisplus/NsisSetupDev/config.yaml.in -text
 projects/nsisplus/NsisSetupDev/git_repos.lst.in -text
-projects/nsisplus/NsisSetupLib/config.vars.in -text
 projects/nsisplus/NsisSetupLib/config.yaml.in -text
 projects/nsisplus/NsisSetupLib/git_repos.lst.in -text
-projects/nsisplus/NsisSetupSamples/config.vars.in -text
 projects/nsisplus/NsisSetupSamples/config.yaml.in -text
 projects/nsisplus/NsisSetupSamples/git_repos.lst.in -text
-projects/nsisplus/_projects/config.vars.in -text
 projects/nsisplus/_projects/config.yaml.in -text
 projects/nsisplus/_projects/git_repos.lst.in -text
-projects/nsisplus/config.vars.in -text
 projects/nsisplus/config.yaml.in -text
-projects/nsisplus/deploy/config.vars.in -text
 projects/nsisplus/deploy/config.yaml.in -text
 projects/nsisplus/deploy/git_repos.lst.in -text
